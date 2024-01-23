@@ -1,0 +1,5 @@
+if(EXISTS "F:/__C++/Skillbox/_Final/Search_Engine/cmake-build-debug/search_engine[1]_tests.cmake")
+  include("F:/__C++/Skillbox/_Final/Search_Engine/cmake-build-debug/search_engine[1]_tests.cmake")
+else()
+  add_test(search_engine_NOT_BUILT search_engine_NOT_BUILT)
+endif()
